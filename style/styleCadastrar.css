@@ -1,0 +1,61 @@
+.centralizarPage {
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+}
+
+.form-criacao-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 1em;
+    min-width: 500px;
+    position: relative
+}
+
+.form-criacao-login input{
+    width: 75%;
+    margin-left: 25%;
+}
+
+.form-criacao-login label{
+    white-space: nowrap;
+}
+
+.filtro-img{
+    background: rgba(96, 167, 214, 0.3);
+}
+
+.img-loginPage {
+    position: relative;
+    height: 500px;
+    padding-left: 10px;
+    min-width: 500px;
+    border-radius: 1em;
+}
+
+.img-loginPage::before {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.botao-ok {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border-color: #0AA1DD;
+    border-radius: 0.5em;
+    min-width: 30%;
+    min-height: 3em;
+    height: 10%;
+    /**margin-bottom: 1.5em;
+    /*position: absolute;
+    bottom: 0;*/
+}
