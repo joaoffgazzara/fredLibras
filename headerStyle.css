@@ -1,4 +1,25 @@
-.headNav {
-    max-height: 30px;
+.headerNoLoginCenter {
+    max-height: 60px;
+    width: 100%;
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.headNavPadding{
+    padding: 10px;
+}
+
+.inputSize{
+    max-height: 50px;
+}
+
+.headerNoLoginSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
