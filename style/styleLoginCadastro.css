@@ -73,8 +73,8 @@ body {
         flex-direction: column;
         justify-content: space-between;
         padding: 3em;
-        height: 480px;    
-        width: 480px;
+        height: 500px;    
+        width: 500px;
     }
     .img-loginPage {
         opacity: 0%;
