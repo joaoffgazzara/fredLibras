@@ -7,59 +7,66 @@
     <title>Aprenda Libras</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style/styleCadastrar.css">
+    <link rel="stylesheet" href="../style/styleLoginCadastro.css">
+    <script src="https://kit.fontawesome.com/65917058b0.js" crossorigin="anonymous"></script>
 </head>
 
 <header>
-    <object data="../header.html"></object>
+
 </header>
 
 <body>
     <div class="centralizarPage">
-        <div class="col xxl-6">
-            <div class="form-criacao-login" id="cadastro_azul">
-                    <div class="div-form">
-                        <div class="mb-3 row">
-                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="staticEmail"
-                                    placeholder="email@exemplo.com">
-                            </div>
-                        </div>
-                        <div class="mb-3 row">
-                            <label for="inputPassword" class="col-sm-2 col-form-label">Nome</label>
-                            <div class="col-sm-10">
-                                <input type="username" class="form-control" id="inputUsername">
-                            </div>
-                        </div>
-                        <div class="mb-3 row">
-                            <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword">
-                            </div>
-                        </div>
-                        <div class="mb-3 row">
-                            <label for="inputPassword" class="col-sm-2 col-form-label">Confirmar Senha</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword">
-                            </div>
+        <div class="col xxl-6"> <!--FORMS-->
+
+            <div class="form-criacao-login">
+                <div class="div-form">
+
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="staticEmail" placeholder="email@exemplo.com">
                         </div>
                     </div>
 
-                    <div class="centralizarButton">
-                        <button class="botao-ok">Criar conta</button>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Nome</label>
+                        <div class="col-sm-10">
+                            <input type="username" class="form-control" id="inputUsername">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Confirmar Senha</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="centralizarButton">
+                    <button class="botao-ok">Criar conta</button>
+                    <div class="text_cadastro_login">Já está cadastrado? Conecte-se <a href="loginPage.html">aqui</a>!
                     </div>
                 </div>
             </div>
-
-            <div class="col-xxl-6">
-                <img src="../assests/imagens/garotaAprendendo.jpg" class="img-loginPage" alt="">
-            </div>
         </div>
 
+        <div class="col-xxl-6"> <!--IMAGEM-->
+            <img src="../assests/imagens/garotaAprendendo.jpg" class="img-loginPage" alt="">
+        </div>
+    </div>
 
 
-        <script src="../script/scriptCadastrar.js"></script>
+
+    <script src="../script/scriptCadastrar.js"></script>
 </body>
 
 </html>
