@@ -1,0 +1,45 @@
+/*-------------------------CARDS---------------------------------*/
+
+.containerCard{
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.containerCard:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: ease 1500ms;
+    transform-style: preserve-3d;
+    border-radius: 2rem;
+}
+
+.front1,
+.back1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.45);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+
+.front1Imagem {
+    max-height: 100%;
+    max-width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.back1 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    color: white;
+}
