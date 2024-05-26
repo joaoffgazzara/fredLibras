@@ -52,10 +52,14 @@
     max-width: 100%;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    /*border-radius: 2rem;*/
 }
 
 .back {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
-    color: white;
+    color: white;  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
