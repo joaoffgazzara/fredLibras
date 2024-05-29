@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    white-space: nowrap;
     padding: 0.5rem;
 }
 
@@ -33,6 +32,9 @@
     color: #FFF;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 4rem;
+    bottom: 2rem;
 }
 
 .front,
@@ -58,8 +60,22 @@
 .back {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
-    color: white;  display: flex;
+    color: white;  
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center; 
+}
+
+.bt-acessa-curso{
+    border-color: #FFF;
+    color: #FFF;
+    background-color: #3a3a3a;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.bt-acessa-curso:hover{
+    background-color: #575656;
 }
