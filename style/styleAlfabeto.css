@@ -1,0 +1,58 @@
+.container_letras {
+    position: absolute;
+    left: 10vw;
+    width: 80vw;
+}
+
+.container_letras ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container_letras ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container_letras li {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    align-content: center;
+    margin: 1rem;
+    font-size: 3em;
+    border: 3px solid white;
+    border-radius: 15%;
+    color: gold;
+    background-color: darkblue;
+    /*background-color: rgb(2, 222, 222);*/
+}
+
+.container_letras li:hover {
+    background-color: rgb(17, 81, 144);
+    color: white;
+    .li_img {
+        visibility: visible;
+    }
+}
+
+.container_letras li ul {
+    height: 1px;
+}
+
+.container_letras li ul li {
+    position: ;
+    left: -1rem;
+}
+
+.li_img {
+    top: 100px;
+    z-index: 1;
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
