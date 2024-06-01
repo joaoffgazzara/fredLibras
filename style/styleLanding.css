@@ -1,33 +1,33 @@
 /*-------------------------CARDS---------------------------------*/
 
-.bg{
-    background-color: #ebebeb;
+.bg {
+    background-color: #26272b;
 }
 
-.header{
+.header {
     background-color: rgb(21, 69, 139);
 }
 
-.selecao-cursos{
+.selecao-cursos {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
 }
 
-.containerCard{
+.containerCard {
     width: 350px;
     height: 500px;
     overflow: hidden;
     padding: 1rem;
 }
 
-.containerCard:hover > .card {
+.containerCard:hover>.card {
     cursor: pointer;
     transform: rotateY(180deg);
 }
 
-.card{
+.card {
     height: 100%;
     width: 100%;
     position: relative;
@@ -36,7 +36,7 @@
     border-radius: 2rem;
 }
 
-.card_titulo{
+.card_titulo {
     color: #FFF;
     display: flex;
     justify-content: center;
@@ -68,43 +68,142 @@
 .back {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
-    color: white;  
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    align-items: center; 
+    align-items: center;
 }
 
-.bt-acessa-curso{
+.bt-acessa-curso {
     border-color: #FFF;
+    border-radius: 1rem;
     color: #FFF;
     background-color: #3a3a3a;
     padding: 1rem;
     margin: 1rem;
 }
 
-.bt-acessa-curso:hover{
+.bt-acessa-curso:hover {
     background-color: #575656;
 }
 
-.container-info{
+.bt-MATRICULA{
+    border-color: #FFF;
+    border-radius: 0.5rem;
+    color: #FFF;
+    background-color: rgb(34, 97, 192);
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.bt-MATRICULA:hover {
+    background-color: rgb(21, 69, 139);
+}
+
+.container-info {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 2rem;
-    background-color: rgb(34, 97, 192);
+    background-color: #2d2f33;
     color: #FFF;
 }
 
-.img-libras{
+.info-txt-libras{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.img-libras {
     min-height: 100%;
 }
 
-.libras-txt{
+.libras-txt {
     background-color: rgb(21, 69, 139);
     padding: 2rem;
     border-radius: 2rem;
     box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.45);
     max-width: 60rem;
+}
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+}
+
+.logo{
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: -100px;
 }
