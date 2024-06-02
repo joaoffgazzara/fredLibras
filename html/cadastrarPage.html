@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/styleLoginCadastro.css">
+    <link rel="stylesheet" href="../style/styleHeader.css">
     <script src="https://kit.fontawesome.com/65917058b0.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,8 +16,35 @@
 
 </header>
 
-<body>
-    <div class="centralizarPage">
+<body class="bg">
+    <!--HEADER-->
+    <div class="header">
+        <header style="background-color: rgb(21, 69, 139);" class="headerNoLoginCenter">
+            <div class="div">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a style="color: #FFF;" class="navbar-brand">fredLibras</a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar curso"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <div class="headerNoLoginSection headNavPadding">
+                <a style="color: #FFF; text-decoration: none;" class="headNavPadding" href="../html/landingPage.html">Cursos</a>
+                <a style="color: #FFF; text-decoration: none;" class="headNavPadding"
+                    href="/html/loginPage.html">Entrar</a>
+                <a class="headNavPadding" href="/html/cadastrarPage.html">
+                    <button class="bt-MATRICULA">Matricular-se</button>
+                </a>
+            </div>
+        </header>
+    </div>
+
+    <div class="centralizarPage formCor">
         <div class="col xxl-6"> <!--FORMS-->
 
             <div class="form-criacao-login">
@@ -63,6 +91,42 @@
             <img src="../assests/imagens/garotaAprendendo.jpg" class="img-loginPage" alt="">
         </div>
     </div>
+
+        <!--FOOTER-->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>Sobre Nós</h6>
+                <p class="text-justify">A FredLibras é uma escola online dedicada ao ensino da Língua Brasileira de Sinais (Libras), comprometida com a inclusão. Oferecemos cursos abrangentes ministrados por instrutores fluentes em Libras, buscando tornar o aprendizado acessível a todos e promovendo a compreensão da cultura surda. Junte-se a nós nesta jornada inclusiva e descubra o poder da comunicação sem fronteiras na FredLibras: Aprenda, Comunique-se, Inclua! 🤟</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Links</h6>
+                <ul class="footer-links">
+                    <li><a href="../html/landingPage.html">Cursos</a></li>
+                    <li><a href="../html/loginPage.html">Log in</a></li>
+                    <li><a href="../html/cadastrarPage.html">Matricular-se</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <img class="logo" src="../assests/imagens/OIG2.6R-removebg-preview (1).png" alt="">
+            </div>                
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                FREDLIBRAS
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
